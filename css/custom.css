@@ -77,7 +77,7 @@
 
 /* General ———————————— */
 .slider-element .subscribe-widget .contact { margin-bottom: 0.125rem ; font-weight: 700 ; color: #999999 ; }
-.slider-element .subscribe-widget .contact span { margin-right: 0.5rem ; }
+.slider-element .subscribe-widget .contact span { margin-right: 1rem ; }
 .title { text-align: center ; }
 .title::after { content: '' ; display: block ; margin-top: 30px ; width: 40px ; border-top: 2px solid #444 ; margin: 0 auto 2rem ; }
 .title h2 { font-size: 3rem ; }
@@ -93,6 +93,7 @@
 .works .porfolio .cover .name span { color: #FFFFFF ; font-weight: 400 ; }
 
 /* Spec ———————————— */
+.spec .content-wrap { padding-top: 0 ; }
 .spec .description { max-width: 40rem ; margin: 0 auto ; text-align: center ; }
 .spec .description p { font-size: 1.125rem ; }
 .spec .images { max-width: 40rem ; margin: 0 auto ; }
@@ -100,7 +101,8 @@
 .spec .images [class*="col-"] { margin-bottom: 1rem ; }
 
 /* WireFrame ———————————— */
-.wireframe .description { max-width: 40rem ; margin: 0 auto ; text-align: center ; }
+.wireframe .content-wrap { padding-top: 0 ; }
+.wireframe .description { max-width: 40rem ; margin: 0 auto 3rem ; text-align: center ; }
 .wireframe .description p { font-size: 1.125rem ; }
 .wireframe .images img { box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important ; }
 .wireframe .images [class*="col-"] { margin-bottom: 1rem ; }
