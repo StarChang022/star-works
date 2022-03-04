@@ -1,0 +1,116 @@
+/* Basic ———————————— */
+.slider-element {
+	background-image: linear-gradient(to right, #FFF 20%, rgba(108, 99, 255, .2) 100%) ;
+	background-position: right top ;
+	background-repeat: no-repeat ;
+	background-size: cover ;
+	padding: 30px 0 ;
+	min-height: 60vh ;
+}
+@media(min-width: 768px) {
+	.slider-element { min-height: 100vh ; }
+}
+.slider-center {
+	padding: 3rem 0 ;
+	align-items: center ;
+	justify-content: space-between ;
+}
+.slider-element h1 {
+	font-size: 3rem ;
+	margin-bottom: 0.5rem ;
+}
+@media(max-width: 1189px) {
+	.slider-element h1 { font-size: 2rem ; }
+}
+.slider-element h2 {
+	font-size: 1.125rem ;
+	margin-bottom: 0.5rem ;
+}
+.slider-element p {
+	font-size: 1.125rem ;
+	font-weight: 400 ;
+	color: #999999 ;
+	margin-bottom: 0.5rem ;
+}
+.top-title {
+	display: block ;
+	position: relative ;
+	padding-left: 3.75rem ;
+	margin-bottom: 0.625rem ;
+	font-size: 1.125rem ;
+	font-weight: 600 ;
+	letter-spacing: 1px ;
+	color: #6C63FF ;
+}
+.top-title::after {
+	content: '' ;
+	position: absolute ;
+	top: 50% ;
+	left: 0 ;
+	width: 50px ;
+	height: 2px ;
+	margin-top: -1px ;
+	background-color: rgba(0, 0, 0, 0.7) ;
+}
+.button.sns {
+	border-radius: 0.25rem ;
+	padding: 0.625rem 2rem ;
+    font-size: 1.125rem ;
+    line-height: 2rem ;
+    letter-spacing: 0 ;
+    margin-left: 0 ;
+    margin-top: 0.5rem ;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important ;
+    background-color: #6B62FF ;
+}
+.anchor {
+	color: #6B62FF ;
+	margin-left: 1rem ;
+	font-weight: 700 ;
+}
+
+/* Feature ———————————— */
+.feature .content-wrap { padding: 0 ; }
+.feature .fbox-content h3 { font-size: 1.25rem ; }
+.feature .fbox-icon { margin-bottom: 0.5rem ; }
+.feature .items { padding: 3rem ; border-bottom: 1px solid #F2F2F2 ; }
+
+/* General ———————————— */
+.slider-element .subscribe-widget .contact { margin-bottom: 0.125rem ; font-weight: 700 ; color: #999999 ; }
+.slider-element .subscribe-widget .contact span { margin-right: 0.5rem ; }
+.title { text-align: center ; }
+.title::after { content: '' ; display: block ; margin-top: 30px ; width: 40px ; border-top: 2px solid #444 ; margin: 0 auto 2rem ; }
+.title h2 { font-size: 3rem ; }
+@media(max-width: 576px) {
+	.title h2 { font-size: 2rem ; }
+}
+
+/* Works ———————————— */
+.works .porfolio { position: relative ; margin-bottom: 1.5rem ; }
+.works .porfolio .cover { display: flex ; background-color: #00000059 ; position: absolute ; top: 0 ; bottom: 0 ; left: 0 ; right: 0 ; }
+.works .porfolio .cover .name { position: absolute ; bottom: 0.5rem ; left: 1rem ; }
+.works .porfolio .cover .name h3 { color: #FFFFFF ; margin: 0 ; }
+.works .porfolio .cover .name span { color: #FFFFFF ; font-weight: 400 ; }
+
+/* Spec ———————————— */
+.spec .description { max-width: 40rem ; margin: 0 auto ; text-align: center ; }
+.spec .description p { font-size: 1.125rem ; }
+.spec .images { max-width: 40rem ; margin: 0 auto ; }
+.spec .images img { box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important ; }
+.spec .images [class*="col-"] { margin-bottom: 1rem ; }
+
+/* WireFrame ———————————— */
+.wireframe .description { max-width: 40rem ; margin: 0 auto ; text-align: center ; }
+.wireframe .description p { font-size: 1.125rem ; }
+.wireframe .images img { box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important ; }
+.wireframe .images [class*="col-"] { margin-bottom: 1rem ; }
+
+
+
+
+
+
+
+
+
+
